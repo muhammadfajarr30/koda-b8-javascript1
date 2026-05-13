@@ -19,11 +19,16 @@ stop@{shape: dbl-circ, label: "stop" }
 
 start --> a
 a --> b
-b -- yes --> c
+b -- yes --> d
+d --> e
+e --> f
+f -- yes --> h
+h --> g
+i--> c
+g --> f
+f -- no --> i
+c --> b
 b -- no --> stop
-
-
-
 
 
 ```
