@@ -2,7 +2,7 @@
 
 ## Flowchart
 
-```Mermaid
+```mermaid
 
 flowchart TD
 start@{shape: circle, label:"start" }
