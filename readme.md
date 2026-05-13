@@ -11,7 +11,7 @@ c@{shape: rect, label: "luasLingkaran= phi * r * r" }
 d@{shape: rect, label: "kelilingLingkaran = 2 * phi * r"}
 e@{shape: lean-r, label: '"{luasLingkaran}"' }
 f@{shape: lean-r, label: '"{kelilingLingkaran}"' }
-stop@{shape:dbl-circ, label: "stop" }
+stop@{shape: dbl-circ, label: "stop" }
 
 start-->a-->b-->c-->d-->e-->f-->stop
 
