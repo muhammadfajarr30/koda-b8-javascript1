@@ -2,7 +2,7 @@
 
 ## Flowchart Keliling dan Luas Lingkaran
 
-```Mermaid
+```mermaid
 flowchart TD
 start@{shape: circle, label:"start" }
 a@{shape: lean-r, label: "r = 14" }
