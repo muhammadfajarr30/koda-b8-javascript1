@@ -1,7 +1,12 @@
 // Menghitung Luas dan Keliling Lingkaran
 
-const r = 14;
+const r = 21;
 let phi;
+
+if (typeof r !== "number") {
+  console.log("r must a number!");
+  return;
+}
 
 if (r % 7 == 0) {
   phi = 22 / 7;
