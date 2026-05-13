@@ -8,14 +8,14 @@ algoritma perhitungan luas dan keliling lingkaran
 flowchart TD
 start@{shape: circle, label:"start" }
 a@{shape: lean-r, label: "r" }
-phi1@{shape: lean-r, label: "phi = 22/7" }
+phi1@{shape: rect, label: "phi = 22/7" }
 c@{shape: rect, label: "luasLingkaran= phi * r * r" }
 d@{shape: rect, label: "kelilingLingkaran = 2 * phi * r"}
 e@{shape: lean-r, label: '"{luasLingkaran}"' }
 f@{shape: lean-r, label: '"{kelilingLingkaran}"' }
 stop@{shape: dbl-circ, label: "stop" }
 kondisi@{shape: diamond, label: "r % 7 == 0" }
-phi2@{shape: lean-r, label: "phi = 3.14" }
+phi2@{shape: rect, label: "phi = 3.14" }
 start-->a
 a-->kondisi
 kondisi--yes-->phi1
